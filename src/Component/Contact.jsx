@@ -1,8 +1,11 @@
+"use client";
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { FloatingLabel } from "flowbite-react";
+
 
 function Contact() {
   const onSubmit = async (event) => {
@@ -35,8 +38,10 @@ function Contact() {
   };
   return (
     <div id="Contact" className="text-white m-5">
-      <h1 className=" text-center text-6xl md:m-20 lg:m-20">Get in touch</h1>
-      <div className="flex flex-col md:flex-row  self-start mt-10 mx-5 md:mx-20 lg:mx-20">
+      <h1 data-aos="fade-up"
+      className=" text-center text-6xl md:m-20 lg:m-20">Get in touch</h1>
+      <div data-aos="fade-up"
+     data-aos-duration="2000" className="flex flex-col md:flex-row  self-start mt-10 mx-5 md:mx-20 lg:mx-20">
         <div className="md:w-1/2 lg:w-1/2 w-screen mx-3">
           <h1 className="text-5xl md:text-5xl lg:text-7xl bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-yellow-500">
             Let's talk
@@ -59,23 +64,16 @@ function Contact() {
         </div>
         <div className=" mt-3 md:w-3/12 md:mx-3 lg:w-3/12 lg:mx-3">
           <form onSubmit={onSubmit} className="flex flex-col space-y-3">
-            <label htmlFor="">Your Name</label>
-            <input
-              type="text"
-              name="name"
-              placeholder="Enter Your Name"
-              className="bg-zinc-800 h-10 rounded-md"
-              pattern="[a-zA-Z]+"
-              required
-            />
-            <label htmlFor="">Your Email</label>
+          <FloatingLabel variant="standard" label=" Enter Your Name" type="text" name="name"  className="text-white" required />
+            <FloatingLabel variant="standard" label=" Enter Your Email" type="email" name="email" required  className="text-white"  />
+            {/* <label htmlFor="">Your Email</label>
             <input
               type="email"
               name="email"
               placeholder="Enter Your Email"
               className="bg-zinc-800 h-10 rounded-md"
               required
-            />
+            /> */}
             <label htmlFor=""> Write your message here</label>
             <textarea
               name="message"

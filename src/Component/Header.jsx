@@ -16,10 +16,7 @@ const Header = () => {
         <img src={logo} alt="Kundan.dev" className="size-9/12 md:size-7/12 lg:size-8/12" />
       </Navbar.Brand>
       <Navbar.Toggle />
-      <Navbar.Collapse className="mt-3">
-      <AnchorLink className='anchor-link' href="#home" ><Navbar.Link className="text-white text-lg font-semibold">
-          Home
-        </Navbar.Link></AnchorLink> 
+      <Navbar.Collapse className="mt-3"> 
         <AnchorLink className='anchor-link' href="#about"  > <Navbar.Link  className="text-white text-lg font-semibold">
           About
         </Navbar.Link></AnchorLink> 
@@ -29,6 +26,7 @@ const Header = () => {
         <Navbar.Link href="https://www.linkedin.com/in/kundan-bora-2a482a24a/" target="_blank" className="text-white"><FontAwesomeIcon icon={faLinkedin}size="2x" /></Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
+    
     </div>
   )
 }
