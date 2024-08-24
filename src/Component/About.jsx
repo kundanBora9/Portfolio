@@ -16,7 +16,7 @@ function About() {
   return (
     <div id="about" className="text-white mt-20">
       <h1 data-aos="fade-up"
-    data-aos-duration="2000"  className="text-6xl text-center">About me</h1>
+    data-aos-duration="2000"className="text-6xl text-center">About me</h1>
       <div className="">
         <div className="flex flex-col md:flex-row items-center">
           <div  data-aos="zoom-out-right" className="w-full">
