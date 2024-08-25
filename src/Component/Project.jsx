@@ -36,18 +36,21 @@ function Project() {
             visibility.
           </p>
           <div className="mt-3 flex justify-center items-center">
-            <button className="text-white px-3 py-2 border rounded-md mx-3">
-              React
+            <button className="text-white px-3 py-2 border rounded-md mx-3 pr-btn">
+              HTML
             </button>
-            <button className=" text-white px-1 py-2 border rounded-md">
-              Tailwind CSS
+            <button className=" text-white px-1 py-2 border rounded-md pr-btn">
+             CSS
+            </button>
+            <button className=" text-white px-1 py-2 border rounded-md pr-btn">
+             Java Script
             </button>
           </div>
           <div className="mt-3 flex justify-center items-center">
-            <button className="bg-white text-black px-3 py-2 rounded-md mx-3 ">
+            <button className=" text-white px-3 py-2 rounded-md mx-3 pr-btn ">
               <a href="https://github.com/kundanBora9/sundown">Code</a>
             </button>
-            <button className="bg-white text-black px-3 py-2 rounded-md">
+            <button className="text-white px-3 py-2 rounded-md pr-btn">
               <a href="https://sundown-git-main-kundanbora9s-projects.vercel.app/">Live Demo </a>  
             </button>
           </div>
@@ -66,21 +69,21 @@ function Project() {
             company.
           </p>
           <div className="mt-3 flex justify-center items-center">
-            <button className="text-white px-3 py-2 border rounded-md mx-3">
+            <button className="text-white px-3 py-2 border rounded-md mx-3 pr-btn">
               HTML
             </button>
-            <button className=" text-white px-3 py-2 border rounded-md">
+            <button className=" text-white px-3 py-2 border rounded-md pr-btn">
               CSS
             </button>
-            <button className=" text-white px-3 py-2 border rounded-md mx-3">
+            <button className=" text-white px-3 py-2 border rounded-md mx-3 pr-btn">
               Java Script
             </button>
           </div>
           <div className="flex justify-center items-center">
-            <button className="bg-white text-black px-3 py-2 rounded-md mx-3 mt-3">
+            <button className="text-whitepx-3 py-2 rounded-md mx-3 mt-3 pr-btn">
               <a href="https://github.com/kundanBora9/webona">Code</a>
             </button>
-            <button className="bg-white text-black px-3 py-2 rounded-md">
+            <button className="text-white px-3 py-2 rounded-md pr-btn">
               <a href="https://kundanbora9.github.io/webona/">Live Code</a>
             </button>
           </div>
@@ -98,18 +101,18 @@ function Project() {
             pictures and concise, impactful messaging.
           </p>
           <div className="mt-3 flex justify-center items-center">
-            <button className="text-white px-3 py-2 border rounded-md mx-3">
+            <button className="text-white px-3 py-2 border rounded-md mx-3 pr-btn">
               React
             </button>
-            <button className=" text-white px-3 py-2 border rounded-md">
+            <button className=" text-white px-3 py-2 border rounded-md pr-btn">
               Tailwind CSS
             </button>
           </div>
           <div className="mt-3 flex justify-center items-center">
-            <button className="bg-white text-black px-3 py-2 rounded-md mx-3">
+            <button className="text-white px-3 py-2 rounded-md mx-3 pr-btn">
               <a href="https://github.com/kundanBora9/ochi">Code</a>
             </button>
-            <button className="bg-white text-black px-3 py-2 rounded-md">
+            <button className="text-white px-3 py-2 rounded-md pr-btn">
               <a href="https://kundanbora9.github.io/ochi/">Live Demo</a>
             </button>
           </div>
@@ -128,18 +131,16 @@ function Project() {
             customer service.
           </p>
           <div className="mt-3 flex justify-center items-center">
-            <button className="text-white px-3 py-2 border rounded-md mx-3">
-              React
+            <button className="text-white px-3 py-2 border rounded-md mx-3 pr-btn">
+              BootStrap
             </button>
-            <button className=" text-white px-3 py-2 border rounded-md">
-              Tailwind CSS
-            </button>
+            
           </div>
           <div className="mt-3 flex justify-center items-center">
-            <button className="bg-white text-black px-3 py-2 rounded-md mx-3">
+            <button className="text-white  px-3 py-2 rounded-md mx-3 pr-btn">
              <a href="https://github.com/kundanBora9/e-commerce">Code</a>
             </button>
-            <button className="bg-white text-black px-3 py-2 rounded-md">
+            <button className="text-white  px-3 py-2 rounded-md pr-btn">
               <a href="https://kundanbora9.github.io/e-commerce/">Live Demo</a>
             </button>
           </div>
