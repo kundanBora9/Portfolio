@@ -31,13 +31,13 @@ function About() {
             </p>
             <h3 className="mt-5 text-center text-3xl lg:text-left md:text-left ">Teach Stack</h3>
             <div className="flex flex-wrap gap-2 mt-2  mx-5">
-              <img src={html} alt="" class="w-16 h-16 mr-2 mb-2"/>
-              <img src={css} alt="" class="w-16 h-16 mr-2 mb-2"/>
-              <img src={js} alt="" class="w-16 h-16 mr-2 mb-2"/>
-              <img src={bootstrap} alt="" class="w-16 h-16 mr-2 mb-2"/>
-              <img src={tailwind} alt="" class="w-16 h-16 mr-2 mb-2"/>
-              <img src={react} alt="" class="w-16 h-16 mr-2 mb-2"/>
-            </div>
+  <img src={html} alt="" className="w-16 h-16 mr-2 mb-2 hover:scale-110 transition duration-300 ease-in-out" />
+  <img src={css} alt="" className="w-16 h-16 mr-2 mb-2 hover:scale-110 transition duration-300 ease-in-out" />
+  <img src={js} alt="" className="w-16 h-16 mr-2 mb-2 hover:scale-110 transition duration-300 ease-in-out" />
+  <img src={bootstrap} alt="" className="w-16 h-16 mr-2 mb-2 hover:scale-110 transition duration-300 ease-in-out" />
+  <img src={tailwind} alt="" className="w-16 h-16 mr-2 mb-2 hover:scale-110 transition duration-300 ease-in-out" />
+  <img src={react} alt="" className="w-16 h-16 mr-2 mb-2 hover:scale-110 transition duration-300 ease-in-out" />
+</div>
           </div>
         </div>
       </div>
