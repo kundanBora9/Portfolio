@@ -1,12 +1,12 @@
 import React from "react";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Project_1 from "../assets/Project_1.png";
 import project_2 from "../assets/project_2.png";
 import project_3 from "../assets/project_3.png";
 import project_4 from "../assets/project_4.png";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Project() {
   useEffect(() => {
@@ -15,18 +15,34 @@ function Project() {
   return (
     <div id="Project" className="">
       <div className="m-20">
-      <h1 data-aos="fade-up"
-    data-aos-duration="2000" className="text-white text-center text-6xl">Project</h1>
-      <h1 data-aos="fade-up"
-    data-aos-duration="2000" className="text-white text-center text-1xl mt-3 md:text-2xl lg:text-2xl">
-        Each Project is a unique piece of development
-      </h1>
+        <h1
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          className="text-white text-center text-6xl"
+        >
+          Project
+        </h1>
+        <h2
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          className="text-white text-center text-1xl mt-3 md:text-2xl lg:text-2xl"
+        >
+          Each Project is a unique piece of development
+        </h2>
       </div>
       <div className="flex flex-col md:flex-row items-center mt-10 mx-20">
         <div className="w-screen">
-          <img data-aos="zoom-in-right" src={Project_1} alt="" className="  md:w-3/4 md:h-3/4 md:mx-auto md: my-3  lg:w-3/4 lg:h-3/4 lg:mx-auto lg:my-3" />
+          <img
+            data-aos="zoom-in-right"
+            src={Project_1}
+            alt=""
+            className="  md:w-3/4 md:h-3/4 md:mx-auto md: my-3  lg:w-3/4 lg:h-3/4 lg:mx-auto lg:my-3"
+          />
         </div>
-        <div data-aos="zoom-in-left" className="w-auto  md:w-4/5 lg:w-4/5 text-white">
+        <div
+          data-aos="zoom-in-left"
+          className="w-auto  md:w-4/5 lg:w-4/5 text-white"
+        >
           <p className="w-screen md:w-9/12 lg:w-9/12 mx-3 my-3">
             This website helps you with the planning, creation, and execution of
             concepts for your physical brand showroom. Our staff offers
@@ -40,10 +56,10 @@ function Project() {
               HTML
             </button>
             <button className=" text-white px-1 py-2 border rounded-md pr-btn">
-             CSS
+              CSS
             </button>
             <button className=" text-white px-1 py-2 border rounded-md pr-btn">
-             Java Script
+              Java Script
             </button>
           </div>
           <div className="mt-3 flex justify-center items-center">
@@ -51,16 +67,25 @@ function Project() {
               <a href="https://github.com/kundanBora9/sundown">Code</a>
             </button>
             <button className="text-white px-3 py-2 rounded-md pr-btn">
-              <a href="https://sundown-git-main-kundanbora9s-projects.vercel.app/">Live Demo </a>  
+              <a href="https://sundown-git-main-kundanbora9s-projects.vercel.app/">
+                Live Demo{" "}
+              </a>
             </button>
           </div>
         </div>
       </div>
       <div className="flex flex-col md:flex-row items-center mt-10 mx-20">
         <div data-aos="zoom-in-right" className="w-screen">
-          <img src={project_2} alt="" className="w-full md:w-3/4 md:h-3/4 md:mx-auto md: my-3  lg:w-3/4 lg:h-3/4 lg:mx-auto lg:my-3" />
+          <img
+            src={project_2}
+            alt=""
+            className="w-full md:w-3/4 md:h-3/4 md:mx-auto md: my-3  lg:w-3/4 lg:h-3/4 lg:mx-auto lg:my-3"
+          />
         </div>
-        <div data-aos="zoom-in-left" className="w-auto  md:w-4/5 lg:w-4/5 text-white">
+        <div
+          data-aos="zoom-in-left"
+          className="w-auto  md:w-4/5 lg:w-4/5 text-white"
+        >
           <p className="w-screen md:w-9/12 lg:w-9/12 mx-3 my-3">
             This website contributes to the growth of your business. We handle
             all of the infrastructure needs for your business, guaranteeing
@@ -91,9 +116,16 @@ function Project() {
       </div>
       <div className="flex flex-col md:flex-row items-center mt-10 mx-20">
         <div data-aos="zoom-in-right" className="w-screen">
-          <img src={project_3} alt="" className="w-full md:w-3/4 md:h-3/4 md:mx-auto md: my-3  lg:w-3/4 lg:h-3/4 lg:mx-auto lg:my-3" />
+          <img
+            src={project_3}
+            alt=""
+            className="w-full md:w-3/4 md:h-3/4 md:mx-auto md: my-3  lg:w-3/4 lg:h-3/4 lg:mx-auto lg:my-3"
+          />
         </div>
-        <div data-aos="zoom-in-left" className="w-auto  md:w-4/5 lg:w-4/5 text-white">
+        <div
+          data-aos="zoom-in-left"
+          className="w-auto  md:w-4/5 lg:w-4/5 text-white"
+        >
           <p className="w-screen md:w-9/12 lg:w-9/12 mx-3 my-3">
             This website helps you create a presentation to show to your client.
             With our simple tools and templates, you can easily create appealing
@@ -120,9 +152,16 @@ function Project() {
       </div>
       <div className="flex flex-col md:flex-row items-center mt-10 mx-20">
         <div data-aos="zoom-in-right" className="w-screen">
-          <img src={project_4} alt="" className="w-full md:w-3/4 md:h-3/4 md:mx-auto md: my-3  lg:w-3/4 lg:h-3/4 lg:mx-auto lg:my-3" />
+          <img
+            src={project_4}
+            alt=""
+            className="w-full md:w-3/4 md:h-3/4 md:mx-auto md: my-3  lg:w-3/4 lg:h-3/4 lg:mx-auto lg:my-3"
+          />
         </div>
-        <div data-aos="zoom-in-left" className="w-auto  md:w-4/5 lg:w-4/5 text-white">
+        <div
+          data-aos="zoom-in-left"
+          className="w-auto  md:w-4/5 lg:w-4/5 text-white"
+        >
           <p className="w-screen md:w-9/12 lg:w-9/12mx-3 my-3">
             Welcome to our e-commerce website, your go-to destination for
             premium quality foods. We offer a wide variety of fresh, organic,
@@ -134,11 +173,10 @@ function Project() {
             <button className="text-white px-3 py-2 border rounded-md mx-3 pr-btn">
               BootStrap
             </button>
-            
           </div>
           <div className="mt-3 flex justify-center items-center">
             <button className="text-white  px-3 py-2 rounded-md mx-3 pr-btn">
-             <a href="https://github.com/kundanBora9/e-commerce">Code</a>
+              <a href="https://github.com/kundanBora9/e-commerce">Code</a>
             </button>
             <button className="text-white  px-3 py-2 rounded-md pr-btn">
               <a href="https://kundanbora9.github.io/e-commerce/">Live Demo</a>
