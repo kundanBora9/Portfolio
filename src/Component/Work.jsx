@@ -13,13 +13,13 @@ function Work() {
            
            <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3  gap-3 mt-10'>
                  <div>
-                    <img src={Anytime} alt="" />
+                  <a href="https://visa-project-six.vercel.app/" target='_blank'> <img src={Anytime} alt="" /> </a>  
                  </div>
                  <div>
-                    <img src={Saffron} alt="" />
+                    <a href="https://saffronroutes.in/" target='_blank'> <img src={Saffron} alt=""  /></a> 
                  </div>
                  <div>
-                    <img src={vatsayana} alt="" />
+                    <a href="https://www.vatsyayanaresorts.com/travel-hub/best-resort-for-corporate-outing-near-delhi-ncr/" target='_blank'  ><img src={vatsayana} alt="" /></a>
                  </div>
            </div>
           
