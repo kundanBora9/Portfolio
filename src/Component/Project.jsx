@@ -15,20 +15,12 @@ function Project() {
   return (
     <div id="Project" className="">
       <div className="m-20">
-        <h1
-          data-aos="fade-up"
-          data-aos-duration="2000"
-          className="text-white text-center text-6xl"
-        >
-          Project
-        </h1>
-        <h2
-          data-aos="fade-up"
-          data-aos-duration="2000"
-          className="text-white text-center text-1xl mt-3 md:text-2xl lg:text-2xl"
-        >
-          Each Project is a unique piece of development
-        </h2>
+      <h1 data-aos="fade-up"
+    data-aos-duration="2000" className="text-white text-center text-6xl">Project</h1>
+      <h1 data-aos="fade-up"
+    data-aos-duration="2000" className="text-white text-center text-1xl mt-3 md:text-2xl lg:text-2xl">
+        Each Project is a unique piece of development
+      </h1>
       </div>
       <div className="flex flex-col md:flex-row items-center mt-10 mx-20">
         <div className="w-screen">
