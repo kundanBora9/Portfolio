@@ -9,6 +9,7 @@ import js from "../assets/js.png";
 import tailwind from "../assets/tailwind.png";
 import react from "../assets/react.png";
 import bootstrap from '../assets/bootstrap.png'
+import php from '../assets/php.png'
 function About() {
   useEffect(() => {
     AOS.init();
@@ -37,6 +38,7 @@ function About() {
   <img src={bootstrap} alt="" className="w-16 h-16 mr-2 mb-2 hover:scale-110 transition duration-300 ease-in-out" />
   <img src={tailwind} alt="" className="w-16 h-16 mr-2 mb-2 hover:scale-110 transition duration-300 ease-in-out" />
   <img src={react} alt="" className="w-16 h-16 mr-2 mb-2 hover:scale-110 transition duration-300 ease-in-out" />
+  <img src={php} alt="" className="w-16 h-16 mr-2 mb-2 hover:scale-110 transition duration-300 ease-in-out" />
 </div>
           </div>
         </div>
