@@ -7,8 +7,8 @@ function Work() {
     <>
    <section className='overflow-hidden'>
     <div className='container mx-auto md:mx-auto lg:mx-auto'>
-        <h1 className='text-center fs-1 text-black text-3xl md:text-6xl lg:text-6xl'>Latest Work Showcase</h1>
-        <p className="text-black text-center text-1xl mt-3 md:text-2xl lg:text-2xl">
+        <h1 className='text-center fs-1 text-white text-3xl md:text-6xl lg:text-6xl'>Latest Work Showcase</h1>
+        <p className="text-white text-center text-1xl mt-3 md:text-2xl lg:text-2xl">
             Showcasing innovation, design, and seamless execution across projects.
         </p>
         

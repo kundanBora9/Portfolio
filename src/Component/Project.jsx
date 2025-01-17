@@ -76,7 +76,7 @@ function Project() {
         </div>
         <div
           data-aos="zoom-in-left"
-          className="w-auto  md:w-4/5 lg:w-4/5 text-black"
+          className="w-auto  md:w-4/5 lg:w-4/5 text-white"
         >
           <p className="w-screen md:w-9/12 lg:w-9/12mx-3 my-3">
             Welcome to our e-commerce website, your go-to destination for
