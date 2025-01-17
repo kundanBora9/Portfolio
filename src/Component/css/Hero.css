@@ -49,6 +49,13 @@
     color: aliceblue;
   }
   
+  @media only screen and (max-width: 768px) {
+    .connt-btn {
+      column-gap:10px;
+    }
+  }
+  
+
   /* From Uiverse.io by CristianMontoya98 */ 
 .pr-btn {
   width: 6.5em;

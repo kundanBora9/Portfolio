@@ -41,7 +41,7 @@ function Contact() {
       <h1 data-aos="fade-up"
       className=" text-center text-6xl md:m-20 lg:m-20">Get in touch</h1>
       <div data-aos="fade-up"
-     data-aos-duration="2000" className="flex flex-col md:flex-row  self-start mt-10 mx-5 md:mx-20 lg:mx-20">
+     data-aos-duration="1000" className="flex flex-col md:flex-row  self-start mt-10 mx-5 md:mx-20 lg:mx-20">
         <div className="md:w-1/2 lg:w-1/2 w-screen mx-3">
           <h1 className="text-5xl md:text-5xl lg:text-7xl bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-yellow-500">
             Let's talk
@@ -79,8 +79,9 @@ function Contact() {
               name="message"
               rows="8"
               placeholder="Enter your message"
-              className="bg-zinc-800 rounded-md"
+              className="rounded-md bg-zinc-900 h-20"
               required
+             
             ></textarea>
             <button
               type="submit"

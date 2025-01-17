@@ -7,11 +7,13 @@ import Work from './Component/Work'
 import Project from './Component/Project'
 import Contact from './Component/Contact'
 import  Footer  from './Component/Footer'
+import SplashCursor from './Component/SplashCursor.jsx'
 
 function App() {
 
   return (
     <>
+    <SplashCursor />
      <Header/>
      <Hero/>
      <About/>

@@ -13,7 +13,7 @@ function Project() {
     AOS.init();
   }, []);
   return (
-    <div id="Project" className="">
+    <div id="Project" className='overflow-hidden'>
       <div className="m-20">
       <h1 data-aos="fade-up"
     data-aos-duration="2000" className="text-white text-center text-6xl">Project</h1>
@@ -35,7 +35,7 @@ function Project() {
           data-aos="zoom-in-left"
           className="w-auto  md:w-4/5 lg:w-4/5 text-white"
         >
-          <p className="w-screen md:w-9/12 lg:w-9/12 mx-3 my-3">
+          <p className="w-screen md:w-9/12 lg:w-9/12 mx-3 my-3 text-justify">
             This website helps you with the planning, creation, and execution of
             concepts for your physical brand showroom. Our staff offers
             knowledgeable direction to design a visually appealing and useful
@@ -56,11 +56,11 @@ function Project() {
           </div>
           <div className="mt-3 flex justify-center items-center">
             <button className=" text-white px-3 py-2 rounded-md mx-3 pr-btn ">
-              <a href="https://github.com/kundanBora9/sundown">Code</a>
+              <a href="https://github.com/kundanBora9/sundown" target="_blank">Code</a>
             </button>
             <button className="text-white px-3 py-2 rounded-md pr-btn">
-              <a href="https://sundown-git-main-kundanbora9s-projects.vercel.app/">
-                Live Demo{" "}
+              <a href="https://sundown-git-main-kundanbora9s-projects.vercel.app/" target="_blank">
+                Live Demo
               </a>
             </button>
           </div>
@@ -76,7 +76,7 @@ function Project() {
         </div>
         <div
           data-aos="zoom-in-left"
-          className="w-auto  md:w-4/5 lg:w-4/5 text-white"
+          className="w-auto  md:w-4/5 lg:w-4/5 text-black"
         >
           <p className="w-screen md:w-9/12 lg:w-9/12mx-3 my-3">
             Welcome to our e-commerce website, your go-to destination for
@@ -92,10 +92,10 @@ function Project() {
           </div>
           <div className="mt-3 flex justify-center items-center">
             <button className="text-white  px-3 py-2 rounded-md mx-3 pr-btn">
-              <a href="https://github.com/kundanBora9/e-commerce">Code</a>
+              <a href="https://github.com/kundanBora9/e-commerce" target="_blank">Code</a>
             </button>
             <button className="text-white  px-3 py-2 rounded-md pr-btn">
-              <a href="https://kundanbora9.github.io/e-commerce/">Live Demo</a>
+              <a href="https://kundanbora9.github.io/e-commerce/" target="_blank">Live Demo</a>
             </button>
           </div>
         </div>
@@ -133,10 +133,10 @@ function Project() {
           </div>
           <div className="flex justify-center items-center">
             <button className="text-whitepx-3 py-2 rounded-md mx-3 mt-3 pr-btn">
-              <a href="https://github.com/kundanBora9/webona">Code</a>
+              <a href="https://github.com/kundanBora9/webona" target="_blank">Code</a>
             </button>
             <button className="text-white px-3 py-2 rounded-md pr-btn">
-              <a href="https://kundanbora9.github.io/webona/">Live Code</a>
+              <a href="https://kundanbora9.github.io/webona/" target="_blank">Live Code</a>
             </button>
           </div>
         </div>
@@ -169,10 +169,10 @@ function Project() {
           </div>
           <div className="mt-3 flex justify-center items-center">
             <button className="text-white px-3 py-2 rounded-md mx-3 pr-btn">
-              <a href="https://github.com/kundanBora9/ochi">Code</a>
+              <a href="https://github.com/kundanBora9/ochi" target="_blank">Code</a>
             </button>
             <button className="text-white px-3 py-2 rounded-md pr-btn">
-              <a href="https://kundanbora9.github.io/ochi/">Live Demo</a>
+              <a href="https://kundanbora9.github.io/ochi/" target="_blank">Live Demo</a>
             </button>
           </div>
         </div>
