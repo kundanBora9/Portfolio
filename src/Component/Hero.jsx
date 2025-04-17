@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import profileimg from "../assets/profileimg.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import my_resume from "../assets/my_resume.pdf";
+import my_resume from "../assets/kundan_resume.pdf";
 import "./css/Hero.css";
 import GradientText from "./GradientText.jsx";
 function Hero() {

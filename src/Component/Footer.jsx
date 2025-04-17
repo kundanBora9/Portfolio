@@ -7,7 +7,7 @@ function Footer() {
       <div className="flex flex-col justify-evenly md:flex-row items-center text-black mt-10 mb-2 ">
         <div data-aos="fade-up"
      data-aos-duration="1000">
-        <img src={logo} alt="Kundan.dev" className="size-4/12 md:size-5/12 lg:size-4/12" />
+       
           <p className="md:w-1/2 lg:w-1/2 ">
             Passionate front-end developer with a creative flair and a drive for
             continuous learning.
