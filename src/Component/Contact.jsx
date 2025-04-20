@@ -37,55 +37,64 @@ function Contact() {
     }
   };
   return (
-    <div id="Contact" className="text-white m-5">
-      <h1 data-aos="fade-up"
-      className=" text-center text-6xl md:m-20 lg:m-20">Get in touch</h1>
-      <div data-aos="fade-up"
-     data-aos-duration="1000" className="flex flex-col md:flex-row  self-start mt-10 mx-5 md:mx-20 lg:mx-20">
-        <div className="md:w-1/2 lg:w-1/2 w-screen mx-3">
-          <h1 className="text-5xl md:text-5xl lg:text-7xl bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-yellow-500">
+    <div id="Contact" className=" py-20 m-5">
+      <h1 data-aos="fade-up" className="text-center text-4xl md:text-6xl lg:text-7xl   mb-12">
+        Get in touch
+      </h1>
+      
+      <div data-aos="fade-up" data-aos-duration="1000" className="flex flex-col md:flex-row mx-auto max-w-7xl px-4 md:px-10 lg:px-20">
+        
+        {/* Left Column */}
+        <div className="md:w-1/2 lg:w-1/2 w-full mb-10 md:mb-0">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-semibold mb-4">
             Let's talk
-          </h1>
-          <p className="w-4/5 md:w-8/12 lg:w-8/12 md:mx-3 md:my-3 lg:my-3 lg:mx-3">
-            I'm currently available to take on new projects, so feel free to
-            send me a message about anything that you want me to work on. You
-            can contact me anytime.
+          </h2>
+          <p className="text-lg md:text-xl  mb-6">
+            I'm currently available to take on new projects. Feel free to send me a message about anything you'd like me to work on. You can contact me anytime.
           </p>
-          <p className="mx-auto">
-            <FontAwesomeIcon icon={faEnvelope} /> kb926464@gmail.com
-          </p>
-          <p className="">
-            <FontAwesomeIcon icon={faPhone} />
-            +91 9760402549
-          </p>
-          <p className="">
-            <FontAwesomeIcon icon={faLocationDot} /> Delhi, India
-          </p>
+          
+          <div className="space-y-4">
+            <p className="flex items-center text-lg">
+              <FontAwesomeIcon icon={faEnvelope} className="mr-2 " />
+              <a href="mailto:kb926464@gmail.com" className="">kb926464@gmail.com</a>
+            </p>
+            <p className="flex items-center text-lg">
+              <FontAwesomeIcon icon={faPhone} className="mr-2 " />
+              <a href="tel:+919760402549" className="">+91 9760402549</a>
+            </p>
+            <p className="flex items-center text-lg">
+              <FontAwesomeIcon icon={faLocationDot} className="mr-2 " />
+              <span className="t">Delhi, India</span>
+            </p>
+          </div>
         </div>
-        <div className=" mt-3 md:w-3/12 md:mx-3 lg:w-3/12 lg:mx-3">
-          <form onSubmit={onSubmit} className="flex flex-col space-y-3">
-          <FloatingLabel variant="standard" label=" Enter Your Name" type="text" name="name"  className="text-white" required />
-            <FloatingLabel variant="standard" label=" Enter Your Email" type="email" name="email" required  className="text-white"  />
-            {/* <label htmlFor="">Your Email</label>
-            <input
-              type="email"
-              name="email"
-              placeholder="Enter Your Email"
-              className="bg-zinc-800 h-10 rounded-md"
-              required
-            /> */}
-            <label htmlFor=""> Write your message here</label>
-            <textarea
-              name="message"
-              rows="8"
-              placeholder="Enter your message"
-              className="rounded-md bg-zinc-900 h-20"
-              required
-             
-            ></textarea>
+        
+        {/* Right Column - Form */}
+        <div className="md:w-1/2 lg:w-1/2 flex flex-col space-y-6">
+          <form onSubmit={onSubmit} className="space-y-6">
+            
+            {/* Name Field */}
+            <FloatingLabel variant="standard" label="Enter Your Name" type="text" name="name" className="" required />
+            
+            {/* Email Field */}
+            <FloatingLabel variant="standard" label="Enter Your Email" type="email" name="email" className="" required />
+            
+            {/* Message Field */}
+            <div>
+              <label htmlFor="message" className="text-lg">Write your message here</label>
+              <textarea
+                name="message"
+                rows="6"
+                placeholder="Enter your message"
+                className="w-full  rounded-md px-4 py-3 mt-2  "
+                required
+              ></textarea>
+            </div>
+            
+            {/* Submit Button */}
             <button
               type="submit"
-              className="w-1/2 h-10 rounded-xl bg-gradient-to-r from-pink-500 to-yellow-500 cursor-pointer hover:border-2"
+              className="w-full px-6 py-2 bg-blue-600 text-white rounded-full shadow-md hover:bg-blue-700 transition-all "
             >
               Submit Now
             </button>

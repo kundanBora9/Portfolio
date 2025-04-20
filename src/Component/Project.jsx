@@ -7,6 +7,7 @@ import project_2 from "../assets/project_2.png";
 import project_3 from "../assets/project_3.png";
 import project_4 from "../assets/project_4.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import './css/Hero.css'
 
 function Project() {
   useEffect(() => {
@@ -15,10 +16,10 @@ function Project() {
   return (
     <div id="Project" className='overflow-hidden'>
       <div className="m-20">
+      <h2 data-aos="fade-up"
+    data-aos-duration="2000" className="text-center text-6xl">Project</h2>
       <h1 data-aos="fade-up"
-    data-aos-duration="2000" className="text-white text-center text-6xl">Project</h1>
-      <h1 data-aos="fade-up"
-    data-aos-duration="2000" className="text-white text-center text-1xl mt-3 md:text-2xl lg:text-2xl">
+    data-aos-duration="2000" className="text-center text-1xl mt-3 md:text-2xl lg:text-2xl">
         Each Project is a unique piece of development
       </h1>
       </div>
@@ -33,7 +34,7 @@ function Project() {
         </div>
         <div
           data-aos="zoom-in-left"
-          className="w-auto  md:w-4/5 lg:w-4/5 text-white"
+          className="w-auto  md:w-4/5 lg:w-4/5"
         >
           <p className="w-screen md:w-9/12 lg:w-9/12 mx-3 my-3 text-justify">
             This website helps you with the planning, creation, and execution of
@@ -44,21 +45,21 @@ function Project() {
             visibility.
           </p>
           <div className="mt-3 flex justify-center items-center">
-            <button className="text-white px-3 py-2 border rounded-md mx-3 pr-btn">
+            <button className=" px-3 py-2 border rounded-md mx-3 pr-btn">
               HTML
             </button>
-            <button className=" text-white px-1 py-2 border rounded-md pr-btn">
+            <button className="  px-1 py-2 border rounded-md pr-btn">
               CSS
             </button>
-            <button className=" text-white px-1 py-2 border rounded-md pr-btn">
+            <button className="  px-1 py-2 border rounded-md pr-btn">
               Java Script
             </button>
           </div>
           <div className="mt-3 flex justify-center items-center">
-            <button className=" text-white px-3 py-2 rounded-md mx-3 pr-btn ">
+            <button className="  px-3 py-2 rounded-md mx-3 pr-btn ">
               <a href="https://github.com/kundanBora9/sundown" target="_blank">Code</a>
             </button>
-            <button className="text-white px-3 py-2 rounded-md pr-btn">
+            <button className=" px-3 py-2 rounded-md pr-btn">
               <a href="https://sundown-git-main-kundanbora9s-projects.vercel.app/" target="_blank">
                 Live Demo
               </a>
@@ -76,7 +77,7 @@ function Project() {
         </div>
         <div
           data-aos="zoom-in-left"
-          className="w-auto  md:w-4/5 lg:w-4/5 text-white"
+          className="w-auto  md:w-4/5 lg:w-4/5 "
         >
           <p className="w-screen md:w-9/12 lg:w-9/12mx-3 my-3">
             Welcome to our e-commerce website, your go-to destination for
@@ -86,15 +87,15 @@ function Project() {
             customer service.
           </p>
           <div className="mt-3 flex justify-center items-center">
-            <button className="text-white px-3 py-2 border rounded-md mx-3 pr-btn">
+            <button className=" px-3 py-2 border rounded-md mx-3 pr-btn">
               BootStrap
             </button>
           </div>
           <div className="mt-3 flex justify-center items-center">
-            <button className="text-white  px-3 py-2 rounded-md mx-3 pr-btn">
+            <button className="  px-3 py-2 rounded-md mx-3 pr-btn">
               <a href="https://github.com/kundanBora9/e-commerce" target="_blank">Code</a>
             </button>
-            <button className="text-white  px-3 py-2 rounded-md pr-btn">
+            <button className="  px-3 py-2 rounded-md pr-btn">
               <a href="https://kundanbora9.github.io/e-commerce/" target="_blank">Live Demo</a>
             </button>
           </div>
@@ -111,7 +112,7 @@ function Project() {
         </div>
         <div
           data-aos="zoom-in-left"
-          className="w-auto  md:w-4/5 lg:w-4/5 text-white"
+          className="w-auto  md:w-4/5 lg:w-4/5 "
         >
           <p className="w-screen md:w-9/12 lg:w-9/12 mx-3 my-3">
             This website contributes to the growth of your business. We handle
@@ -121,13 +122,13 @@ function Project() {
             company.
           </p>
           <div className="mt-3 flex justify-center items-center">
-            <button className="text-white px-3 py-2 border rounded-md mx-3 pr-btn">
+            <button className=" px-3 py-2 border rounded-md mx-3 pr-btn">
               HTML
             </button>
-            <button className=" text-white px-3 py-2 border rounded-md pr-btn">
+            <button className="  px-3 py-2 border rounded-md pr-btn">
               CSS
             </button>
-            <button className=" text-white px-3 py-2 border rounded-md mx-3 pr-btn">
+            <button className="  px-3 py-2 border rounded-md mx-3 pr-btn">
               Java Script
             </button>
           </div>
@@ -135,7 +136,7 @@ function Project() {
             <button className="text-whitepx-3 py-2 rounded-md mx-3 mt-3 pr-btn">
               <a href="https://github.com/kundanBora9/webona" target="_blank">Code</a>
             </button>
-            <button className="text-white px-3 py-2 rounded-md pr-btn">
+            <button className="px-3 py-2 rounded-md pr-btn">
               <a href="https://kundanbora9.github.io/webona/" target="_blank">Live Code</a>
             </button>
           </div>
@@ -151,7 +152,7 @@ function Project() {
         </div>
         <div
           data-aos="zoom-in-left"
-          className="w-auto  md:w-4/5 lg:w-4/5 text-white"
+          className="w-auto  md:w-4/5 lg:w-4/5 "
         >
           <p className="w-screen md:w-9/12 lg:w-9/12 mx-3 my-3">
             This website helps you create a presentation to show to your client.
@@ -160,18 +161,18 @@ function Project() {
             pictures and concise, impactful messaging.
           </p>
           <div className="mt-3 flex justify-center items-center">
-            <button className="text-white px-3 py-2 border rounded-md mx-3 pr-btn">
+            <button className=" px-3 py-2 border rounded-md mx-3 pr-btn">
               React
             </button>
-            <button className=" text-white px-3 py-2 border rounded-md pr-btn">
+            <button className=" px-3 py-2 border rounded-md pr-btn">
               Tailwind CSS
             </button>
           </div>
           <div className="mt-3 flex justify-center items-center">
-            <button className="text-white px-3 py-2 rounded-md mx-3 pr-btn">
+            <button className=" px-3 py-2 rounded-md mx-3 pr-btn">
               <a href="https://github.com/kundanBora9/ochi" target="_blank">Code</a>
             </button>
-            <button className="text-white px-3 py-2 rounded-md pr-btn">
+            <button className=" px-3 py-2 rounded-md pr-btn">
               <a href="https://kundanbora9.github.io/ochi/" target="_blank">Live Demo</a>
             </button>
           </div>

@@ -13,7 +13,6 @@ function App() {
 
   return (
     <>
-    <SplashCursor />
      <Header/>
      <Hero/>
      <About/>

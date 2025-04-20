@@ -5,14 +5,6 @@ function Footer() {
   return (
     <div className="text-white">
       <div className="flex flex-col justify-evenly md:flex-row items-center text-black mt-10 mb-2 ">
-        <div data-aos="fade-up"
-     data-aos-duration="1000">
-       
-          <p className="md:w-1/2 lg:w-1/2 ">
-            Passionate front-end developer with a creative flair and a drive for
-            continuous learning.
-          </p>
-        </div>
       </div>
       <hr></hr>
       <div class="lg:flex lg:justify-between lg:items-center flex-col lg:flex-row mx-10 m-5">
