@@ -8,6 +8,7 @@ import Project from './Component/Project'
 import Contact from './Component/Contact'
 import  Footer  from './Component/Footer'
 import SplashCursor from './Component/SplashCursor.jsx'
+import TechSlider from './Component/TechSlider.jsx'
 
 function App() {
 
